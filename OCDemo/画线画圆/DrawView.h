@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DrawView.h
 //  OCDemo
 //
 //  Created by Architect_ZBX on 16/2/25.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "DrawView.h"
 
-@interface ViewController : UIViewController
-
+@interface DrawView : UIView
 
 @end
-

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BE326A11C7ECF040093771C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3269E1C7ECF040093771C /* DrawView.m */; };
+		7BE326A21C7ECF040093771C /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE326A01C7ECF040093771C /* DrawViewController.m */; };
 		7BEC1AD81C7EC4740010FA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC1AD71C7EC4740010FA32 /* main.m */; };
 		7BEC1ADB1C7EC4740010FA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC1ADA1C7EC4740010FA32 /* AppDelegate.m */; };
 		7BEC1ADE1C7EC4740010FA32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC1ADD1C7EC4740010FA32 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BE3269D1C7ECF040093771C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7BE3269E1C7ECF040093771C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		7BE3269F1C7ECF040093771C /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		7BE326A01C7ECF040093771C /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 		7BEC1AD31C7EC4740010FA32 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEC1AD71C7EC4740010FA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BEC1AD91C7EC4740010FA32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +45,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BE3269C1C7ECF040093771C /* 画线画圆 */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3269D1C7ECF040093771C /* DrawView.h */,
+				7BE3269E1C7ECF040093771C /* DrawView.m */,
+				7BE3269F1C7ECF040093771C /* DrawViewController.h */,
+				7BE326A01C7ECF040093771C /* DrawViewController.m */,
+			);
+			path = "画线画圆";
+			sourceTree = "<group>";
+		};
+		7BE326A41C7ECF230093771C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC1AD91C7EC4740010FA32 /* AppDelegate.h */,
+				7BEC1ADA1C7EC4740010FA32 /* AppDelegate.m */,
+				7BEC1ADF1C7EC4740010FA32 /* Main.storyboard */,
+				7BEC1AE21C7EC4740010FA32 /* Assets.xcassets */,
+				7BEC1AE41C7EC4740010FA32 /* LaunchScreen.storyboard */,
+				7BEC1AE71C7EC4740010FA32 /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 		7BEC1ACA1C7EC4740010FA32 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +88,10 @@
 		7BEC1AD51C7EC4740010FA32 /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7BEC1AD91C7EC4740010FA32 /* AppDelegate.h */,
-				7BEC1ADA1C7EC4740010FA32 /* AppDelegate.m */,
+				7BE326A41C7ECF230093771C /* Others */,
+				7BE3269C1C7ECF040093771C /* 画线画圆 */,
 				7BEC1ADC1C7EC4740010FA32 /* ViewController.h */,
 				7BEC1ADD1C7EC4740010FA32 /* ViewController.m */,
-				7BEC1ADF1C7EC4740010FA32 /* Main.storyboard */,
-				7BEC1AE21C7EC4740010FA32 /* Assets.xcassets */,
-				7BEC1AE41C7EC4740010FA32 /* LaunchScreen.storyboard */,
-				7BEC1AE71C7EC4740010FA32 /* Info.plist */,
 				7BEC1AD61C7EC4740010FA32 /* Supporting Files */,
 			);
 			path = OCDemo;
@@ -150,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BEC1ADE1C7EC4740010FA32 /* ViewController.m in Sources */,
+				7BE326A21C7ECF040093771C /* DrawViewController.m in Sources */,
+				7BE326A11C7ECF040093771C /* DrawView.m in Sources */,
 				7BEC1ADB1C7EC4740010FA32 /* AppDelegate.m in Sources */,
 				7BEC1AD81C7EC4740010FA32 /* main.m in Sources */,
 			);
@@ -298,6 +326,7 @@
 				7BEC1AEC1C7EC4740010FA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
