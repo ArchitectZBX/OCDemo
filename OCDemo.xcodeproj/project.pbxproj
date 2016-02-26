@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BD3EF8B1C802CAC00E374CC /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3EF8A1C802CAC00E374CC /* CustomView.m */; };
 		7BE326A11C7ECF040093771C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3269E1C7ECF040093771C /* DrawView.m */; };
 		7BE326A21C7ECF040093771C /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE326A01C7ECF040093771C /* DrawViewController.m */; };
 		7BEC1AD81C7EC4740010FA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC1AD71C7EC4740010FA32 /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BD3EF891C802CAC00E374CC /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		7BD3EF8A1C802CAC00E374CC /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		7BE3269D1C7ECF040093771C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		7BE3269E1C7ECF040093771C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		7BE3269F1C7ECF040093771C /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
@@ -52,6 +55,8 @@
 				7BE3269E1C7ECF040093771C /* DrawView.m */,
 				7BE3269F1C7ECF040093771C /* DrawViewController.h */,
 				7BE326A01C7ECF040093771C /* DrawViewController.m */,
+				7BD3EF891C802CAC00E374CC /* CustomView.h */,
+				7BD3EF8A1C802CAC00E374CC /* CustomView.m */,
 			);
 			path = "画线画圆";
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				7BE326A11C7ECF040093771C /* DrawView.m in Sources */,
 				7BEC1ADB1C7EC4740010FA32 /* AppDelegate.m in Sources */,
 				7BEC1AD81C7EC4740010FA32 /* main.m in Sources */,
+				7BD3EF8B1C802CAC00E374CC /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

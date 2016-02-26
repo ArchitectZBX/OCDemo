@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DrawView.h"
 
+@class CustomView;
 @interface ViewController : UIViewController
 
 

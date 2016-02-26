@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustomView.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    DrawView* dv = [DrawView new];
-    dv.frame = [UIScreen mainScreen].bounds;
-    [self.view addSubview:dv];
+//    DrawView* dv = [DrawView new];
+//    dv.frame = [UIScreen mainScreen].bounds;
+//    [self.view addSubview:dv];
+    CustomView *customView = [[CustomView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.frame.size.height)];
+    [self.view addSubview:customView];
 }
 
 - (void)didReceiveMemoryWarning {
