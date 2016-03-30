@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2ECB0E1CABAC94003A93F6 /* LXBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2ECB0D1CABAC94003A93F6 /* LXBannerView.m */; };
 		7B3104B11CA632EF00EB0CE3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3104B01CA632EF00EB0CE3 /* Person.m */; };
 		7B3104B41CA6332C00EB0CE3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3104B31CA6332C00EB0CE3 /* Student.m */; };
 		7B35ACF01CAB7B9D00C0FC57 /* LunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ACEF1CAB7B9D00C0FC57 /* LunboViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2ECB0C1CABAC94003A93F6 /* LXBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBannerView.h; sourceTree = "<group>"; };
+		7B2ECB0D1CABAC94003A93F6 /* LXBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBannerView.m; sourceTree = "<group>"; };
 		7B3104AF1CA632EF00EB0CE3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		7B3104B01CA632EF00EB0CE3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		7B3104B21CA6332C00EB0CE3 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		7B35ACED1CAB7B4400C0FC57 /* 轮播图 */ = {
 			isa = PBXGroup;
 			children = (
+				7B2ECB0C1CABAC94003A93F6 /* LXBannerView.h */,
+				7B2ECB0D1CABAC94003A93F6 /* LXBannerView.m */,
 				7B35ACEE1CAB7B9D00C0FC57 /* LunboViewController.h */,
 				7B35ACEF1CAB7B9D00C0FC57 /* LunboViewController.m */,
 			);
@@ -305,6 +310,7 @@
 				7BEC1ADE1C7EC4740010FA32 /* ViewController.m in Sources */,
 				7B57F5471C8D612F00EC4C0C /* MASViewConstraint.m in Sources */,
 				7B3104B11CA632EF00EB0CE3 /* Person.m in Sources */,
+				7B2ECB0E1CABAC94003A93F6 /* LXBannerView.m in Sources */,
 				7B35ACF01CAB7B9D00C0FC57 /* LunboViewController.m in Sources */,
 				7B57F5451C8D612F00EC4C0C /* MASLayoutConstraint.m in Sources */,
 				7B383C2B1C940C3C000DEA90 /* MyView.m in Sources */,
