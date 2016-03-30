@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "DrawView.h"
+#import "MyView.h"
+#import "Student.h"
 
 @class CustomView;
 @interface ViewController : UIViewController
